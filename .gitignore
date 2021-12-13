@@ -1,0 +1,19 @@
+.DS_Store
+node_modules
+/build
+/.svelte-kit
+/package
+.env
+.env.*
+
+
+# Logs
+/logs
+*.log
+
+# Coverage directory used by tools like istanbul
+/coverage
+
+
+# Compiled sanity studio
+/dist
