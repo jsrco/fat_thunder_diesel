@@ -1,12 +1,17 @@
 <script>
-import { page } from "$app/stores";
+    import { page } from "$app/stores";
 </script>
 
 <nav class="flex" aria-label="Breadcrumb">
     <ol role="list" class="flex items-center space-x-4">
         <li>
             <div>
-                <a href="/#" class="{ $page.path === "/" ? "text-red-400" : "text-white"} { $page.path === "/" ? "hover:text-white" : "hover:text-red-400"}">
+                <a
+                    href="/#"
+                    class="{$page.path === '/'
+                        ? 'text-yellow-400'
+                        : 'text-white'} hover:text-yellow-400"
+                >
                     <!-- Heroicon name: solid/home -->
                     <svg
                         class="flex-shrink-0 h-5 w-5"
@@ -37,8 +42,9 @@ import { page } from "$app/stores";
                 </svg>
                 <a
                     href="/blog"
-                    class="{ $page.path === "/blog" ? "text-red-400" : "text-white"} { $page.path === "/blog" ? "hover:text-white" : "hover:text-red-400"}"
-                    >Blog</a
+                    class="{$page.path === '/blog'
+                        ? 'text-red-400'
+                        : 'text-white'} hover:text-red-400">Blog</a
                 >
             </div>
         </li>
@@ -55,7 +61,10 @@ import { page } from "$app/stores";
                     <path d="M5.555 17.776l8-16 .894.448-8 16-.894-.448z" />
                 </svg>
                 <a
-                    href="/portfolio" class="{ $page.path === "/portfolio" ? "text-red-400" : "text-white"} { $page.path === "/portfolio" ? "hover:text-white" : "hover:text-red-400"}"
+                    href="/portfolio"
+                    class="{$page.path === '/portfolio'
+                        ? 'text-blue-400'
+                        : 'text-white'} hover:text-blue-400"
                     aria-current="page">Portfolio</a
                 >
             </div>
@@ -73,7 +82,10 @@ import { page } from "$app/stores";
                     <path d="M5.555 17.776l8-16 .894.448-8 16-.894-.448z" />
                 </svg>
                 <a
-                    href="/about" class="{ $page.path === "/about" ? "text-red-400" : "text-white"} { $page.path === "/about" ? "hover:text-white" : "hover:text-red-400"}"
+                    href="/about"
+                    class="{$page.path === '/about'
+                        ? 'text-green-400'
+                        : 'text-white'} hover:text-green-400"
                     aria-current="page">About</a
                 >
             </div>

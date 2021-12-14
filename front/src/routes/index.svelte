@@ -1,6 +1,6 @@
 <script>
-    import Header from "$lib/components/blocks/header.svelte";
+    import Cta from "$lib/components/blocks/cta.svelte";
 
 </script>
 
-<Header />
+<Cta />

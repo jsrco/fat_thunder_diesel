@@ -2,10 +2,17 @@
   import "../app.css";
 
   import Container from "$lib/components/containers/container.svelte";
-  import Nav from "$lib/components/nav/nav.svelte"
+  import Footer from "$lib/components/blocks/footer.svelte";
+  import Nav from "$lib/components/nav/nav.svelte";
+
 </script>
 
-<Container>
-  <Nav/>
-  <slot />
+<div class="flex flex-col h-screen min-h-screen justify-between">
+<Container class="flex-initial"> 
+  <Nav />
 </Container>
+<slot />
+<Container class="flex-initial">
+  <Footer />
+</Container>
+</div>
