@@ -8,11 +8,11 @@
 </script>
 
 <div class="flex flex-col h-screen min-h-screen justify-between">
-<Container class="flex-initial"> 
+<Container> 
   <Nav />
 </Container>
 <slot />
-<Container class="flex-initial">
+<Container>
   <Footer />
 </Container>
 </div>

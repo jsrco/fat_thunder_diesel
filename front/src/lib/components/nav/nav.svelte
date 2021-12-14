@@ -2,7 +2,7 @@
     import { page } from "$app/stores";
 </script>
 
-<nav class="flex" aria-label="Breadcrumb">
+<nav class="bg-zinc-900 fixed flex opacity-75 w-full z-50" aria-label="Breadcrumb">
     <ol role="list" class="flex items-center space-x-4">
         <li>
             <div>
