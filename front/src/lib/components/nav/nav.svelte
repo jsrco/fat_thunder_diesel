@@ -2,7 +2,7 @@
     import { page } from "$app/stores";
 </script>
 
-<nav class="bg-zinc-900 fixed flex opacity-75 w-full z-50" aria-label="Breadcrumb">
+<nav class="bg-zinc-900 fixed flex opacity-80 pl-4 w-full z-50" aria-label="Breadcrumb">
     <ol role="list" class="flex items-center space-x-4">
         <li>
             <div>
@@ -48,7 +48,7 @@
                 >
             </div>
         </li>
-
+<!--
         <li>
             <div class="flex items-center">
                 <svg
@@ -90,5 +90,6 @@
                 >
             </div>
         </li>
+-->
     </ol>
 </nav>

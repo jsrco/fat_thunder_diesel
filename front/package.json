@@ -11,6 +11,7 @@
   "devDependencies": {
     "@portabletext/svelte": "^0.2.0",
     "@sveltejs/adapter-auto": "next",
+    "@sveltejs/adapter-static": "^1.0.0-next.22",
     "@sveltejs/kit": "next",
     "autoprefixer": "^10.3.7",
     "cssnano": "^5.0.8",

@@ -1,30 +1,9 @@
 <script>
-    import client from "$lib/client";
-    import PortableText from "@portabletext/svelte";
-
-    import ErrorComp from "$lib/components/error.svelte";
-
-    const query = `*[_type == "post"]`;
-    const getData = async () => {
-        return client
-            .fetch(query)
-            .then((response) => {
-                response.forEach((r) => {
-                    console.log(r);
-                });
-            })
-            .catch((err) => {
-                console.log(err);
-                this.error(500, err);
-            });
-    };
+    import Container from "$lib/components/containers/container.svelte";
 </script>
 
-{#await getData()}
-    <div>...</div>
-{:then}
-    <PortableText blocks={getData.body} />
-    <div class="relative py-16 bg-white overflow-hidden">
+<Container>
+    <div class="relative pt-16">
         <div
             class="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full"
         >
@@ -53,7 +32,7 @@
                                 y="0"
                                 width="4"
                                 height="4"
-                                class="text-gray-200"
+                                class="text-gray-700"
                                 fill="currentColor"
                             />
                         </pattern>
@@ -85,7 +64,7 @@
                                 y="0"
                                 width="4"
                                 height="4"
-                                class="text-gray-200"
+                                class="text-gray-700"
                                 fill="currentColor"
                             />
                         </pattern>
@@ -117,7 +96,7 @@
                                 y="0"
                                 width="4"
                                 height="4"
-                                class="text-gray-200"
+                                class="text-gray-700"
                                 fill="currentColor"
                             />
                         </pattern>
@@ -134,106 +113,148 @@
             <div class="text-lg max-w-prose mx-auto">
                 <h1>
                     <span
-                        class="block text-base text-center text-indigo-600 font-semibold tracking-wide uppercase"
-                        >Introducing</span
+                        class="block text-base text-center text-gray-200 font-semibold tracking-wide uppercase"
+                        >01.</span
                     >
                     <span
-                        class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl"
-                        >Title</span
+                        class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-red-500 sm:text-4xl"
+                        >Till I hook this up to Sanity</span
                     >
                 </h1>
-                <p class="mt-8 text-xl text-gray-500 leading-8">
-                    Aliquet nec orci mattis amet quisque ullamcorper neque, nibh
-                    sem. At arcu, sit dui mi, nibh dui, diam eget aliquam.
-                    Quisque id at vitae feugiat egestas ac. Diam nulla orci at
-                    in viverra scelerisque eget. Eleifend egestas fringilla
-                    sapien.
+                <p class="mt-8 text-xl text-gray-300 leading-8">
+                    This post started out as a letter to <a
+                        href="https://www.terryjaymes.com/"
+                        target="_blank"
+                    >
+                        <span
+                            class="font-bold text-indigo-400 hover:text-indigo-500"
+                            >Terry Jaymes Alive</span
+                        ></a
+                    >. Like that "<strong>inspirational ****er</strong>", its
+                    time to start the ball rolling on life goals.
                 </p>
             </div>
 
-            <div class="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
+            <div
+                class="mt-8 text-lg text-gray-300 mx-auto px-0 md:px-4 lg:px-32"
+            >
                 <p>
-                    Faucibus commodo massa rhoncus, volutpat. <strong
-                        >Dignissim</strong
-                    >
-                    sed <strong>eget risus enim</strong>. Mattis mauris semper
-                    sed amet vitae sed turpis id. Id dolor praesent donec est.
-                    Odio penatibus risus viverra tellus varius sit neque erat
-                    velit. Faucibus commodo massa rhoncus, volutpat. Dignissim
-                    sed eget risus enim. Mattis mauris semper sed amet vitae sed
-                    turpis id.
-                </p>
-                <ul role="list">
-                    <li>Quis elit egestas venenatis mattis dignissim.</li>
-                    <li>
-                        Cras cras lobortis vitae vivamus ultricies facilisis
-                        tempus.
-                    </li>
-                    <li>
-                        Orci in sit morbi dignissim metus diam arcu pretium.
-                    </li>
-                </ul>
-                <p>
-                    Quis semper vulputate aliquam venenatis egestas sagittis
-                    quisque orci. Donec commodo sit viverra aliquam porttitor
-                    ultrices gravida eu. Tincidunt leo, elementum mattis
-                    elementum ut nisl, justo, amet, mattis. Nunc purus, diam
-                    commodo tincidunt turpis. Amet, duis sed elit interdum
-                    dignissim.
-                </p>
-                <h2>From beginner to expert in 30 days</h2>
-                <p>
-                    Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam
-                    consequat in. Convallis arcu ipsum urna nibh. Pharetra,
-                    euismod vitae interdum mauris enim, consequat vulputate
-                    nibh. Maecenas pellentesque id sed tellus mauris, ultrices
-                    mauris. Tincidunt enim cursus ridiculus mi. Pellentesque nam
-                    sed nullam sed diam turpis ipsum eu a sed convallis diam.
-                </p>
-                <blockquote>
-                    <p>
-                        Sagittis scelerisque nulla cursus in enim consectetur
-                        quam. Dictum urna sed consectetur neque tristique
-                        pellentesque. Blandit amet, sed aenean erat arcu morbi.
-                    </p>
-                </blockquote>
-                <p>
-                    Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget
-                    risus enim. Mattis mauris semper sed amet vitae sed turpis
-                    id. Id dolor praesent donec est. Odio penatibus risus
-                    viverra tellus varius sit neque erat velit.
-                </p>
-                <figure>
-                    <img
-                        class="w-full rounded-lg"
-                        src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=facearea&w=1310&h=873&q=80&facepad=3"
-                        alt=""
-                        width="1310"
-                        height="873"
+                    I have been meaning to create this site for a couple of
+                    weeks now. <br /><br />
+                    I recently had a baby girl. During the delivery there were complications.<br
+                    /><br />
+                    A rough epidural, a broken vacuum, and an overhead view of an
+                    episiotomy... shit hit the fan for baby's first moments.
+                    <br /><br />
+                    <figure>
+                        <img
+                            class="max-h-96 m-auto rounded-lg"
+                            src="./assets/n1.png"
+                            alt="Nadja"
+                        />
+                        <figcaption
+                            class="m-auto text-center text-gray-400 text-sm"
+                        >
+                            "Relax, I am fine." Nadja said.
+                        </figcaption>
+                    </figure>
+                    <br />
+                    We spent 10 days in the NICU at a different hospital.The first
+                    day there, she stopped breathing while I was holding her hand.
+                    That was a lot to deal with.<br />
+                    <br />
+                    Plus, you aren't alone in the NICU. You are there with other
+                    families. There was a baby born at 23 weeks in the ward. It's
+                    a massive amount of emotion and information to be around.
+                    <br /><br />
+                    To say the least, my focus and mojo have gone to shit. I can't
+                    meditate or shoot my bow. Trying to work happens.<br /><br
                     />
-                    <figcaption>
-                        Sagittis scelerisque nulla cursus in enim consectetur
-                        quam.
-                    </figcaption>
-                </figure>
-                <h2>Everything you need to get up and running</h2>
-                <p>
-                    Purus morbi dignissim senectus mattis adipiscing. Amet,
-                    massa quam varius orci dapibus volutpat cras. In amet eu
-                    ridiculus leo sodales cursus tristique. Tincidunt sed tempus
-                    ut viverra ridiculus non molestie. Gravida quis fringilla
-                    amet eget dui tempor dignissim. Facilisis auctor venenatis
-                    varius nunc, congue erat ac. Cras fermentum convallis quam.
-                </p>
-                <p>
-                    Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget
-                    risus enim. Mattis mauris semper sed amet vitae sed turpis
-                    id. Id dolor praesent donec est. Odio penatibus risus
-                    viverra tellus varius sit neque erat velit.
+                    It's like I lost my connection with, everything.
+                    <br /><br />
+                    <figure>
+                        <img
+                            class="max-h-96 m-auto rounded-lg"
+                            src="./assets/IMG_6876.JPG"
+                            alt="PooPoo Point Hike"
+                        />
+                        <figcaption
+                            class="m-auto text-center text-gray-400 text-sm"
+                        >
+                            PooPoo Point Hike.
+                        </figcaption>
+                    </figure>
+                    <br />
+                    My back up is going for a run or walk in the woods. But the weather
+                    out here hasn't been stellar.<br /><br />
+                    It feels pretty close to getting popped in the nose and stunned
+                    when boxing. It takes a bit to realign your perception and understand
+                    that you got smacked in the face.
+                    <br /><br />
+                    In aftermath of a traumatic event, I am curious how people deal.
+                    How do you deal with these kinds of major events that leave you
+                    reeling?<br /><br />
+                    Even with excitement from those first 10 days, it has been the
+                    most positive experience of my life. <br /><br />
+                    And its inspiring.<br /><br />
+                    <figure>
+                        <img
+                            class="max-h-96 m-auto rounded-lg"
+                            src="./assets/tat.jpg"
+                            alt="40th Bday Tats"
+                        />
+                        <figcaption
+                            class="m-auto text-center text-gray-400 text-sm"
+                        >
+                            40th Bday Tats.
+                        </figcaption>
+                    </figure>
+                    <br />
+                    As I rush back to productivity, "fully inspired", I realize I
+                    had seen my wife's vagina snipped open by scissors too. Almost
+                    a process of rediscovery and hitting a brick wall all at once.
+                    <br /><br />
+                    For the reader, baby and mom are doing amazing. I swear my partner
+                    is part machine. For me this will just "take some time".<br
+                    /><br />
+                    <figure>
+                        <img
+                            class="max-h-96 m-auto rounded-lg"
+                            src="./assets/n2.png"
+                            alt="Nadja"
+                        />
+                        <figcaption
+                            class="m-auto text-center text-gray-400 text-sm"
+                        >
+                            Nadja says, "Hi hi hi!"
+                        </figcaption>
+                    </figure>
+                    <br />
+                    How do you deal with major life changing situations that leave
+                    you stunned? What do you do to start picking up the pieces of
+                    the aftermath? There isn't a spot for you to respond.
+                    <br /><br /> Those thoughts are for you if they mean
+                    anything.<br /><br />
+                    Going forward, I will begin to connect this site and grow it
+                    out. I have a
+                    <a href="https://www.sanity.io/" target="_blank">
+                        <span
+                            class="font-bold text-indigo-400 hover:text-indigo-500"
+                            >Sanity</span
+                        ></a
+                    >
+                    based back end ready to go. I need to get off my butt and
+                    write the serializer for that to happen.
+                    <br /><br />Expect progress about my game
+                    <a href="https://www.croplike.com/" target="_blank">
+                        <span
+                            class="font-bold text-indigo-400 hover:text-indigo-500"
+                            >Croplike</span
+                        ></a
+                    >, web dev moments of joy, or more inspirational memos as I
+                    garner fame and fortune.
                 </p>
             </div>
         </div>
     </div>
-{:catch error}
-    <ErrorComp />
-{/await}
+</Container>

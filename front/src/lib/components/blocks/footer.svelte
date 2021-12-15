@@ -1,5 +1,10 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <footer>
+    <img
+        class="h-20 m-auto mt-16 w-20"
+        src="./assets/me.png"
+        alt="Fat Thunder Logo with no text"
+    />
     <div
         class="max-w-7xl mx-auto py-2 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8"
     >
@@ -59,7 +64,7 @@
                 </svg>
             </a>
         </div>
-        <div class="mt-8 md:mt-0 md:order-1">
+        <div class="md:mt-0 md:order-1">
             <p class="text-center text-base text-white">
                 I am <span class="font-bold text-red-500">Fat Thunder</span>.
                 Just ask for help.
