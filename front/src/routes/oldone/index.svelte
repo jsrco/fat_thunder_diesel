@@ -114,7 +114,10 @@
                 <h1>
                     <span
                         class="block text-base text-center text-gray-200 font-semibold tracking-wide uppercase"
-                        >01.</span
+                        >01.<a
+                        href="/blog"
+                        class="font-bold text-indigo-400 hover:text-indigo-500">&GT;</a
+                    ></span
                     >
                     <span
                         class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-red-500 sm:text-4xl"

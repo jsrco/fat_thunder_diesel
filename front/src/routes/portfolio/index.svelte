@@ -172,6 +172,35 @@
                 <div
                     class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3"
                 >
+                <div class="pt-6">
+                    <div class="flow-root bg-dark rounded-lg px-6 pb-8">
+                        <div class="-mt-6">
+                            <div>
+                                <span
+                                    class="md:h-24 md:w-24 inline-flex items-center justify-center p-3 text-blue-400 rounded-md shadow-lg"
+                                >
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                    <path d="M11 17a1 1 0 001.447.894l4-2A1 1 0 0017 15V9.236a1 1 0 00-1.447-.894l-4 2a1 1 0 00-.553.894V17zM15.211 6.276a1 1 0 000-1.788l-4.764-2.382a1 1 0 00-.894 0L4.789 4.488a1 1 0 000 1.788l4.764 2.382a1 1 0 00.894 0l4.764-2.382zM4.447 8.342A1 1 0 003 9.236V15a1 1 0 00.553.894l4 2A1 1 0 009 17v-5.764a1 1 0 00-.553-.894l-4-2z" />
+                                  </svg>
+                                </span>
+                            </div>
+                            <h3
+                                class="mt-1 text-sm text-yellow-300 tracking-tight font-bold"
+                            >
+                                Vue Engineer
+                            </h3>
+                            <h3
+                                class="text-lg font-bold text-indigo-400 hover:text-indigo-500 tracking-tight"
+                            >
+                                <a
+                                    href="https://www.evidentchange.org/"
+                                    target="_blank">Evident Change</a
+                                >
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
                     <div class="pt-6">
                         <div class="flow-root bg-dark rounded-lg px-6 pb-8">
                             <div class="-mt-6">
@@ -272,11 +301,7 @@
                                 </h3>
                                 <ul class="text-base text-gray-200">
                                     <li class="mt-5">
-                                        Advised on system implementation
-                                    </li>
-                                    <li class="mt-5">
-                                        System designed to sustain maintainable
-                                        growth
+                                        Advised on class system implementation
                                     </li>
                                     <li class="mt-5">
                                         Reduced impact on staffing by
@@ -288,46 +313,6 @@
                                         Interview teaching, coding, and
                                         curriculum production candidates
                                     </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="pt-6">
-                        <div class="flow-root bg-dark rounded-lg px-6 pb-8">
-                            <div class="-mt-6">
-                                <div>
-                                    <span
-                                        class="md:h-24 md:w-24 inline-flex items-center justify-center p-3 text-blue-400 rounded-md shadow-lg"
-                                    >
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            viewBox="0 0 20 20"
-                                            fill="currentColor"
-                                        >
-                                            <path
-                                                d="M5 3a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2V5a2 2 0 00-2-2H5zM5 11a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2v-2a2 2 0 00-2-2H5zM11 5a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V5zM14 11a1 1 0 011 1v1h1a1 1 0 110 2h-1v1a1 1 0 11-2 0v-1h-1a1 1 0 110-2h1v-1a1 1 0 011-1z"
-                                            />
-                                        </svg>
-                                    </span>
-                                </div>
-                                <h3
-                                    class="mt-1 text-sm text-yellow-300 tracking-tight font-bold"
-                                >
-                                    <span class="text-blue-200">Freelance</span>
-                                    <span class="text-yellow-400 font-black"
-                                        >&nbsp;/&nbsp;</span
-                                    >Web Developer
-                                </h3>
-                                <h3
-                                    class="text-lg font-bold text-indigo-400 hover:text-indigo-500"
-                                >
-                                    <a
-                                        href="https://techability.education/"
-                                        target="_blank">TechAbility.Education</a
-                                    >
-                                </h3>
-                                <ul class="text-base text-gray-200">
                                     <li class="mt-5">
                                         Develop new training widgets using
                                         <a

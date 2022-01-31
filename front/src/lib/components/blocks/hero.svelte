@@ -50,17 +50,17 @@
                         <span class="font-bold text-red-200">JavaScript</span>,
                         <span class="font-bold text-red-200">Rust</span>,
                         <span class="font-bold text-red-200">C#</span>, and
-                        <span class="font-bold text-red-200">PHP</span>.
+                        <span class="font-bold text-red-200">Archery</span>.
                         <br />
                         <br />Currently
                         <span class="font-bold text-red-200">writing code</span>
                         for the
-                        <a href="https://www.openfin.co/" target="_blank">
+                        <a href="https://www.evidentchange.org/" target="_blank">
                             <span
-                            class="font-bold text-indigo-400 hover:text-indigo-500"
-                                >Openfin</span
-                            >
-                        </a> site and <a href="https://www.croplike.com/" target="_blank">
+                                class="font-bold text-indigo-400 hover:text-indigo-500"
+                                >Evident Change</span
+                            ></a
+                        > and <a href="https://www.croplike.com/" target="_blank">
                             <span
                             class="font-bold text-indigo-400 hover:text-indigo-500"
                                 >Croplike</span

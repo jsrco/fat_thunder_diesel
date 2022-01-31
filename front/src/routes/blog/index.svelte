@@ -114,24 +114,19 @@
                 <h1>
                     <span
                         class="block text-base text-center text-gray-200 font-semibold tracking-wide uppercase"
-                        >01.</span
+                        ><a
+                        href="/oldone"
+                        class="font-bold text-indigo-400 hover:text-indigo-500">&LT;</a
+                    >02.</span
                     >
                     <span
                         class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-red-500 sm:text-4xl"
-                        >Till I hook this up to Sanity</span
+                        >I "<strong>had</strong>" a ton of notes.</span
                     >
                 </h1>
                 <p class="mt-8 text-xl text-gray-300 leading-8">
-                    This post started out as a letter to <a
-                        href="https://www.terryjaymes.com/"
-                        target="_blank"
-                    >
-                        <span
-                            class="font-bold text-indigo-400 hover:text-indigo-500"
-                            >Terry Jaymes Alive</span
-                        ></a
-                    >. Like that "<strong>inspirational ****er</strong>", its
-                    time to start the ball rolling on life goals.
+                   But I have no idea what I am going to type. I do have a new
+                    job.
                 </p>
             </div>
 
@@ -139,120 +134,147 @@
                 class="mt-8 text-lg text-gray-300 mx-auto px-0 md:px-4 lg:px-32"
             >
                 <p>
-                    I have been meaning to create this site for a couple of
-                    weeks now. <br /><br />
-                    I recently had a baby girl. During the delivery there were complications.<br
-                    /><br />
-                    A rough epidural, a broken vacuum, and an overhead view of an
-                    episiotomy... shit hit the fan for baby's first moments.
+                    After my in-laws staying with us, I am spent. 5 people in a
+                    2 bedroom apartment... for 10 days. They do not speak the
+                    best English.
                     <br /><br />
-                    <figure>
-                        <img
-                            class="max-h-96 m-auto rounded-lg"
-                            src="./assets/n1.png"
-                            alt="Nadja"
-                        />
-                        <figcaption
-                            class="m-auto text-center text-gray-400 text-sm"
-                        >
-                            "Relax, I am fine." Nadja said.
-                        </figcaption>
-                    </figure>
-                    <br />
-                    We spent 10 days in the NICU at a different hospital.The first
-                    day there, she stopped breathing while I was holding her hand.
-                    That was a lot to deal with.<br />
-                    <br />
-                    Plus, you aren't alone in the NICU. You are there with other
-                    families. There was a baby born at 23 weeks in the ward. It's
-                    a massive amount of emotion and information to be around.
+                    It hasn't been the most productive environment.
                     <br /><br />
-                    To say the least, my focus and mojo have gone to shit. I can't
-                    meditate or shoot my bow. Trying to work happens.<br /><br
-                    />
-                    It's like I lost my connection with, everything.
+                    To make it more exciting, the day they leave, I get the office
+                    back. So I am kind of counting the seconds.
                     <br /><br />
-                    <figure>
-                        <img
-                            class="max-h-96 m-auto rounded-lg"
-                            src="./assets/IMG_6876.JPG"
-                            alt="PooPoo Point Hike"
-                        />
-                        <figcaption
-                            class="m-auto text-center text-gray-400 text-sm"
-                        >
-                            PooPoo Point Hike.
-                        </figcaption>
-                    </figure>
-                    <br />
-                    My back up is going for a run or walk in the woods. But the weather
-                    out here hasn't been stellar.<br /><br />
-                    It feels pretty close to getting popped in the nose and stunned
-                    when boxing. It takes a bit to realign your perception and understand
-                    that you got smacked in the face.
+                    Then, the day after that, I start a new job as a Vue Engineer!
                     <br /><br />
-                    In aftermath of a traumatic event, I am curious how people deal.
-                    How do you deal with these kinds of major events that leave you
-                    reeling?<br /><br />
-                    Even with excitement from those first 10 days, it has been the
-                    most positive experience of my life. <br /><br />
-                    And its inspiring.<br /><br />
-                    <figure>
-                        <img
-                            class="max-h-96 m-auto rounded-lg"
-                            src="./assets/tat.jpg"
-                            alt="40th Bday Tats"
-                        />
-                        <figcaption
-                            class="m-auto text-center text-gray-400 text-sm"
-                        >
-                            40th Bday Tats.
-                        </figcaption>
-                    </figure>
-                    <br />
-                    As I rush back to productivity, "fully inspired", I realize I
-                    had seen my wife's vagina snipped open by scissors too. Almost
-                    a process of rediscovery and hitting a brick wall all at once.
-                    <br /><br />
-                    For the reader, baby and mom are doing amazing. I swear my partner
-                    is part machine. For me this will just "take some time".<br
-                    /><br />
-                    <figure>
-                        <img
-                            class="max-h-96 m-auto rounded-lg"
-                            src="./assets/n2.png"
-                            alt="Nadja"
-                        />
-                        <figcaption
-                            class="m-auto text-center text-gray-400 text-sm"
-                        >
-                            Nadja says, "Hi hi hi!"
-                        </figcaption>
-                    </figure>
-                    <br />
-                    How do you deal with major life changing situations that leave
-                    you stunned? What do you do to start picking up the pieces of
-                    the aftermath? There isn't a spot for you to respond.
-                    <br /><br /> Those thoughts are for you if they mean
-                    anything.<br /><br />
-                    Going forward, I will begin to connect this site and grow it
-                    out. I have a
-                    <a href="https://www.sanity.io/" target="_blank">
+                    I will be working with <a href="https://www.evidentchange.org/" target="_blank">
                         <span
                             class="font-bold text-indigo-400 hover:text-indigo-500"
-                            >Sanity</span
+                            >Evident Change</span
                         ></a
-                    >
-                    based back end ready to go. I need to get off my butt and
-                    write the serializer for that to happen.
-                    <br /><br />Expect progress about my game
+                    >.
+                    <figure>
+                        <img
+                            class="max-h-96 m-auto rounded-lg"
+                            src="./assets/evident_logo.jpg"
+                            alt="Evident Change Logo"
+                        />
+                        <figcaption
+                            class="m-auto text-center text-gray-400 text-sm"
+                        >
+                        Formerly the National
+                        Council on Crime and Delinquency (NCCD)
+                        </figcaption>
+                    </figure>
+                    I am a bit stunned by that opportunity. If you read my last blog,
+                    you can understand why the past 4 months have been a whirlwind.
+                    <br /><br />
+                    I am owning it. But it feels like I am riding a storm of my own
+                    design.
+                    <br /><br />
+                    So let me focus for a second. This new job is going to allow
+                    me to contribute all the things I have been studying, for an
+                    amazing cause.
+                    <br /><br />
+                    I am floored by this. I spent part of the weekend researching
+                    my new tech stack. So I am not blind on anything.
+                    <br /><br />
+                    This will be an amazing opportunity! Logistics, I should be able
+                    to keep my daughter at home with Chloe and I. While we both work
+                    like vigilantes.
+                    <br /><br />
+                    Now to the side project,
                     <a href="https://www.croplike.com/" target="_blank">
                         <span
                             class="font-bold text-indigo-400 hover:text-indigo-500"
                             >Croplike</span
                         ></a
-                    >, web dev moments of joy, or more inspirational memos as I
-                    garner fame and fortune.
+                    >.
+                    <br /><br />
+                    I am gutting <a href="https://ondras.github.io/rot.js/hp/" target="_blank">
+                        <span
+                            class="font-bold text-indigo-400 hover:text-indigo-500"
+                            >Rot.js</span
+                        ></a
+                    >. I wanna do everything myself. No this isn't
+                    famous last words. I can learn anything because I hyper focus
+                    when I am passionate.
+                    <br /><br />
+                    So how am I going to render now? Well I have been taking a <a href="https://threejs.org/" target="_blank">
+                        <span
+                            class="font-bold text-indigo-400 hover:text-indigo-500"
+                            >Three.js</span
+                        ></a
+                    >
+                    course with the intent of using that to render the game.
+                    <br /><br />
+                    <a href="https://www.croplike.com/" target="_blank">
+                        <span
+                            class="font-bold text-indigo-400 hover:text-indigo-500"
+                            >Croplike</span
+                        ></a
+                    >
+                    is going to consist of free and documented game development.
+                    Except for the narrative, all elements will be  <a href="https://github.com/jsrco/croplike/blob/main/Croplike%20Design%20Document.md" target="_blank">
+                        <span
+                            class="font-bold text-indigo-400 hover:text-indigo-500"
+                            >accessible</span
+                        ></a
+                    > to
+                    anyone.
+                    <br /><br />
+                    Any earned income donated to a Domestic Abuse Shelter.
+                    <br /><br />
+                    As for the progress, well you get it when you do. I am going
+                    to be more concentrated on work for a bit. But this brings up
+                    an idea on the game development of
+                    <a href="https://www.croplike.com/" target="_blank">
+                        <span
+                            class="font-bold text-indigo-400 hover:text-indigo-500"
+                            >Croplike</span
+                        ></a
+                    >.
+                    <figure>
+                        <img
+                            class="max-h-96 m-auto rounded-lg"
+                            src="./assets/baby.jpg"
+                            alt="This isn't normal game dev."
+                        />
+                        <figcaption
+                            class="m-auto text-center text-gray-400 text-sm"
+                        >
+                        Nadja is distracting.
+                        </figcaption>
+                    </figure>
+                    I *never* do it when I am frustrated. It is a place I go to when
+                    I am happy. Not to say I don't run into problems. I do all the
+                    time.
+                    <br /><br />
+                    But I only produce work when my mood is positive. This is a hobby
+                    and I want to enjoy myself. Which keeps me passionate about it.
+                    <br /><br />
+                    I wish I had some words of wisdom on how I got here. Some positive
+                    reflection through archery. But there isn't any of this today.
+                    I have been struggling to maintain trajectory on everything I
+                    chose to engage in.
+                    <br /><br />
+                    But I am. Like I mentioned, I am owning this! I turned 40 in
+                    Dec.
+                    <br /><br />
+                    I can make things move faster than I ever have. Ride the storm,
+                    even if it is full of poop.
+
+                    <figure>
+                        <img
+                            class="max-h-96 m-auto rounded-lg"
+                            src="./assets/n3.png"
+                            alt="Nadja's poopy diaper"
+                        />
+                        <figcaption
+                            class="m-auto text-center text-gray-400 text-sm"
+                        >
+                            The path is often filled with danger.
+                        </figcaption>
+                    </figure>
+                    <br />
                 </p>
             </div>
         </div>

@@ -6,7 +6,7 @@
     class="bg-zinc-900 fixed flex opacity-80 pl-4 w-full z-50"
     aria-label="Breadcrumb"
 >
-    <ol role="list" class="flex items-center space-x-4">
+    <ol class="flex items-center space-x-4">
         <li>
             <div>
                 <a
@@ -45,7 +45,8 @@
                 </svg>
                 <a
                     href="/blog"
-                    class="{$page.url.pathname === '/blog'
+                    class="{$page.url.pathname === '/blog' ||
+                    $page.url.pathname === '/oldone'
                         ? 'text-red-400'
                         : 'text-white'} hover:text-red-400">Blog</a
                 >
