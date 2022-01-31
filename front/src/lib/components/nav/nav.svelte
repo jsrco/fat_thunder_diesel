@@ -11,7 +11,7 @@
             <div>
                 <a
                     href="/#"
-                    class="{$page.path === '/'
+                    class="{$page.url.pathname === '/'
                         ? 'text-yellow-400'
                         : 'text-white'} hover:text-yellow-400"
                 >
@@ -45,7 +45,7 @@
                 </svg>
                 <a
                     href="/blog"
-                    class="{$page.path === '/blog'
+                    class="{$page.url.pathname === '/blog'
                         ? 'text-red-400'
                         : 'text-white'} hover:text-red-400">Blog</a
                 >
@@ -65,7 +65,7 @@
                 </svg>
                 <a
                     href="/portfolio"
-                    class="{$page.path === '/portfolio'
+                    class="{$page.url.pathname === '/portfolio'
                         ? 'text-blue-400'
                         : 'text-white'} hover:text-blue-400"
                     aria-current="page">Portfolio</a
@@ -86,7 +86,7 @@
                 </svg>
                 <a
                     href="/about"
-                    class="{$page.path === '/about'
+                    class="{$page.url.pathname === '/about'
                         ? 'text-green-400'
                         : 'text-white'} hover:text-green-400"
                     aria-current="page">About</a
