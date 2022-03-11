@@ -5,15 +5,3 @@ node_modules
 /package
 .env
 .env.*
-
-
-# Logs
-/logs
-*.log
-
-# Coverage directory used by tools like istanbul
-/coverage
-
-
-# Compiled sanity studio
-/dist
